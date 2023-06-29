@@ -37,6 +37,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_breast_cancer, load_diabetes
 from sklearn.utils.class_weight import compute_class_weight
 import cv2
+import re
 
 
 from scipy import special
@@ -253,7 +254,7 @@ def build_tabular_classifier(
 
 
 
-def build_shadow_datasets(X, y, callbacks=callbacks, seed=seed, models=10, epochs=epochs, batch_size=batch_size):
+def build_shadow_datasets(X, y, callbacks, epochs, batch_size, models=10, seed=seed):
     
     logits_train_data = []
     logits_test_data = []
@@ -584,7 +585,7 @@ def dap_fit(
     
     
     if verbose > 0: print("Shadow models training started...")
-    data, labels = build_shadow_datasets(X_test, y_test, models=num_shadow_models)
+    data, labels = build_shadow_datasets(X_test, y_test, models=num_shadow_models, batch_size=batch_size, epochs=epochs, callbacks=callbacks)
     mia_input_shape = data.shape[1:]
     if verbose > 0: print("Shadow models training completed!")
 
