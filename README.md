@@ -13,3 +13,15 @@ If you use this work for research, please cite our accompanying paper:
   year={2023}
 }
 ```
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Command-line Arguments](#command-line-arguments)
+- [Example](#example)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
