@@ -1,30 +1,5 @@
-seed = 42
-
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-os.environ['PYTHONHASHSEED'] = str(seed)
-os.environ['MPLCONFIGDIR'] = os.getcwd()+'/configs/'
-
-import warnings
-warnings.simplefilter(action='ignore', category=FutureWarning)
-warnings.simplefilter(action='ignore', category=Warning)
-
 import numpy as np
-np.random.seed(seed)
-
-import logging
 import tensorflow as tf
-import tensorflow.keras as tfk
-import tensorflow.keras.layers as tfkl
-tf.autograph.set_verbosity(0)
-tf.get_logger().setLevel(logging.ERROR)
-tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
-tf.random.set_seed(seed)
-tf.compat.v1.set_random_seed(seed)
-
-import random
-random.seed(seed)
-
 import re
 from scipy import special
 import tensorflow_privacy.privacy.privacy_tests.membership_inference_attack.plotting as plotting
@@ -73,8 +48,8 @@ def test_model_privacy(model, X_train, y_train, X_test, y_test):
 
     attack_types = [
         AttackType.THRESHOLD_ATTACK,
-#         AttackType.LOGISTIC_REGRESSION,
-#         AttackType.RANDOM_FOREST
+        AttackType.LOGISTIC_REGRESSION,
+        AttackType.RANDOM_FOREST
     ] 
 
     attacks_result = mia.run_attacks(attack_input=attack_input,
