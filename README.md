@@ -17,7 +17,7 @@ Should you find this repository useful, please consider citing:
 }
 ```
 
-## Table of Contents
+<!-- ## Table of Contents
 
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -27,4 +27,4 @@ Should you find this repository useful, please consider citing:
 - [Example](#example)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
+- [License](#license) -->
