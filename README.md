@@ -1,6 +1,9 @@
 # Discriminative Adversarial Privacy: Balancing Accuracy and Membership Privacy in Neural Networks (BMVC2023)
 
-[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.03054)
+<!-- [![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.03054) -->
+[![Paper](https://img.shields.io/badge/arXiv-Paper-blue.svg)](https://arxiv.org/abs/2306.03054)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-v2.x-orange.svg)](https://www.tensorflow.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 The official TensorFlow implementation of the BMVC2023 paper [**Discriminative Adversarial Privacy: Balancing Accuracy and Membership Privacy in Neural Networks**](https://arxiv.org/abs/2306.03054)  
 
@@ -51,29 +54,6 @@ docker build -t dap-image .
 ```bash
 docker run -it dap-image
 ```
-
-
-
-
-
-
-<!-- ## Installation and Requirements
-To set up your environment for using this code, follow these steps:
-
-1. Install the required libraries using `requirements.txt`:
-
-```bash
-pip install -r requirements.txt
-```
-
-2. For Docker users, a `Dockerfile` is provided for containerized setup.
-
-## Usage
-The repository includes several scripts and a Jupyter Notebook for demonstration:
-- `privacy.py`: Contains the main logic for privacy-preserving mechanisms.
-- `training.py`: Used for training the models with privacy considerations.
-- The Jupyter Notebook (`Discriminative Adversarial Privacy - Privacy Preserving Component Demo.ipynb`) provides a practical demo of how to apply these concepts. -->
-
 
 ## Citation
 Should you find this repository useful, please consider citing:
