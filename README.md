@@ -6,6 +6,14 @@ The official TensorFlow implementation of the BMVC2023 paper [**Discriminative A
 
 Authors: Eugenio Lomurno, Alberto Archetti, Francesca Ausonio, Matteo Matteucci
 
+## Introduction
+This repository contains the TensorFlow implementation for "Discriminative Adversarial Privacy," a novel approach to balancing model accuracy and membership privacy in neural networks. The implementation showcases how to protect data privacy effectively without significantly compromising model performance.
+
+## Installation and Requirements
+To set up your environment for using this code, follow these steps:
+
+1. Install the required libraries using `requirements.txt`:
+
 ## Citation
 Should you find this repository useful, please consider citing:
 ```bibtex
@@ -16,15 +24,3 @@ Should you find this repository useful, please consider citing:
   year={2023}
 }
 ```
-
-<!-- ## Table of Contents
-
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Command-line Arguments](#command-line-arguments)
-- [Example](#example)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license) -->
