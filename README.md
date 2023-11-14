@@ -10,7 +10,11 @@ The official TensorFlow implementation of the BMVC2023 paper [**Discriminative A
 Authors: Eugenio Lomurno, Alberto Archetti, Francesca Ausonio, Matteo Matteucci
 
 ## Introduction
-This repository contains the TensorFlow implementation for "Discriminative Adversarial Privacy," a novel approach to balancing model accuracy and membership privacy in neural networks. The implementation showcases how to protect data privacy effectively without significantly compromising model performance.
+This repository contains the TensorFlow implementation for "Discriminative Adversarial Privacy," a novel approach to balancing model accuracy and membership privacy in neural networks. The method introduces groundbreaking techniques for enhancing data privacy, demonstrated with comprehensive experimental results.
+
+## Prerequisites
+- Python 3.x
+- TensorFlow 2.x
 
 ## Installation
 To get started with DAP, follow these steps:
