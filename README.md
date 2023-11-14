@@ -14,6 +14,10 @@ To set up your environment for using this code, follow these steps:
 
 1. Install the required libraries using `requirements.txt`:
 
+```bash
+pip install -r requirements.txt
+```
+
 2. For Docker users, a `Dockerfile` is provided for containerized setup.
 
 ## Usage
@@ -33,3 +37,9 @@ Should you find this repository useful, please consider citing:
   year={2023}
 }
 ```
+
+## License
+This project is licensed under the terms of the MIT License. See the `LICENSE` file for more details.
+
+## Contact Information
+For further inquiries or collaboration opportunities, feel free to contact the authors or raise an issue in this repository.
