@@ -12,6 +12,8 @@ Authors: Eugenio Lomurno, Alberto Archetti, Francesca Ausonio, Matteo Matteucci
 ## Introduction
 This repository contains the TensorFlow implementation for "Discriminative Adversarial Privacy," a novel approach to balancing model accuracy and membership privacy in neural networks. The method introduces groundbreaking techniques for enhancing data privacy, demonstrated with comprehensive experimental results.
 
+DAP is part of the [AI-SPRINT](https://www.ai-sprint-project.eu/) project.
+
 ## Prerequisites
 - Python 3.x
 - TensorFlow 2.x
@@ -38,8 +40,6 @@ pip install -r requirements.txt
 
 - **Running Scripts**:
 The 'scripts' directory contains various scripts for tasks such as data preprocessing, model training, and evaluation. These scripts are vital for experimenting with and implementing the DAP framework in your projects.
-- `privacy.py`: Contains the main logic for privacy-preserving mechanisms.
-- `training.py`: Used for training the models with privacy considerations.
 
 - **Model Directory**:
 The 'models' directory houses the machine learning models used in DAP. These models are central to the framework's functionality and can be customized as per specific requirements.
