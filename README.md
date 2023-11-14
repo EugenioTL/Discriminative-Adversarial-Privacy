@@ -14,6 +14,15 @@ To set up your environment for using this code, follow these steps:
 
 1. Install the required libraries using `requirements.txt`:
 
+2. For Docker users, a `Dockerfile` is provided for containerized setup.
+
+## Usage
+The repository includes several scripts and a Jupyter Notebook for demonstration:
+- `privacy.py`: Contains the main logic for privacy-preserving mechanisms.
+- `training.py`: Used for training the models with privacy considerations.
+- The Jupyter Notebook (`Discriminative Adversarial Privacy - Privacy Preserving Component Demo.ipynb`) provides a practical demo of how to apply these concepts.
+
+
 ## Citation
 Should you find this repository useful, please consider citing:
 ```bibtex
