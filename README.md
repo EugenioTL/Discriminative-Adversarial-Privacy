@@ -1,11 +1,11 @@
 # Discriminative Adversarial Privacy: Balancing Accuracy and Membership Privacy in Neural Networks (BMVC2023)
 
 <!-- [![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.03054) -->
-[![Paper](https://img.shields.io/badge/BMVC-Paper-blue.svg)](https://arxiv.org/abs/2306.03054)
+[![Paper](https://img.shields.io/badge/BMVC2023-Paper-blue.svg)](https://papers.bmvc2023.org/0799.pdf)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-v2.x-orange.svg)](https://www.tensorflow.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-The official TensorFlow implementation of the BMVC2023 paper [**Discriminative Adversarial Privacy: Balancing Accuracy and Membership Privacy in Neural Networks**](https://arxiv.org/abs/2306.03054)  
+The official TensorFlow implementation of the BMVC2023 paper [**Discriminative Adversarial Privacy: Balancing Accuracy and Membership Privacy in Neural Networks**](https://proceedings.bmvc2023.org/799/)  
 
 Authors: Eugenio Lomurno, Alberto Archetti, Francesca Ausonio, Matteo Matteucci
 
