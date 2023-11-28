@@ -1,7 +1,7 @@
 # Discriminative Adversarial Privacy: Balancing Accuracy and Membership Privacy in Neural Networks (BMVC2023)
 
 <!-- [![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.03054) -->
-[![Paper](https://img.shields.io/badge/arXiv-Paper-blue.svg)](https://arxiv.org/abs/2306.03054)
+[![Paper](https://img.shields.io/badge/BMVC-Paper-blue.svg)](https://arxiv.org/abs/2306.03054)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-v2.x-orange.svg)](https://www.tensorflow.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
