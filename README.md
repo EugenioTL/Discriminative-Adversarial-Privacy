@@ -62,11 +62,13 @@ docker run -it dap-image
 ## Citation
 Should you find this repository useful, please consider citing:
 ```bibtex
-@article{lomurno2023discriminative,
-  title={Discriminative Adversarial Privacy: Balancing Accuracy and Membership Privacy in Neural Networks},
-  author={Lomurno, Eugenio and Archetti, Alberto and Ausonio, Francesca and Matteucci, Matteo},
-  journal={arXiv preprint arXiv:2306.03054},
-  year={2023}
+@inproceedings{Lomurno_2023_BMVC,
+author    = {Eugenio Lomurno and Alberto Archetti and Francesca Ausonio and Matteo Matteucci},
+title     = {Discriminative Adversarial Privacy: Balancing Accuracy and Membership Privacy in Neural Networks},
+booktitle = {34th British Machine Vision Conference 2023, {BMVC} 2023, Aberdeen, UK, November 20-24, 2023},
+publisher = {BMVA},
+year      = {2023},
+url       = {https://papers.bmvc2023.org/0799.pdf}
 }
 ```
 
